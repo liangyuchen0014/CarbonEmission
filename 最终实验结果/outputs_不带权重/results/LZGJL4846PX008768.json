@@ -1,0 +1,422 @@
+{
+    "source": "data/LZGJL4846PX008768.csv",
+    "number_of_groups": 117,
+    "group_sizes": [
+        70,
+        97,
+        122,
+        11,
+        138,
+        130,
+        126,
+        40,
+        137,
+        65,
+        90,
+        152,
+        98,
+        159,
+        123,
+        19,
+        65,
+        203,
+        178,
+        86,
+        179,
+        189,
+        111,
+        184,
+        90,
+        76,
+        53,
+        16,
+        54,
+        89,
+        40,
+        30,
+        143,
+        21,
+        101,
+        45,
+        78,
+        21,
+        56,
+        76,
+        186,
+        202,
+        195,
+        62,
+        35,
+        40,
+        170,
+        155,
+        39,
+        172,
+        121,
+        113,
+        38,
+        25,
+        120,
+        49,
+        151,
+        64,
+        44,
+        32,
+        84,
+        47,
+        180,
+        27,
+        210,
+        130,
+        129,
+        10,
+        71,
+        10,
+        39,
+        143,
+        174,
+        99,
+        238,
+        294,
+        10,
+        10,
+        13,
+        17,
+        20,
+        47,
+        32,
+        69,
+        13,
+        14,
+        26,
+        36,
+        18,
+        99,
+        76,
+        19,
+        47,
+        133,
+        64,
+        111,
+        63,
+        81,
+        16,
+        25,
+        11,
+        117,
+        43,
+        133,
+        655,
+        21,
+        100,
+        24,
+        137,
+        186,
+        247,
+        94,
+        39,
+        25,
+        84,
+        14,
+        18
+    ],
+    "correlation_speed_power": 0.42295383206203013,
+    "results": [
+        {
+            "model": "linear",
+            "full_model_metrics": {
+                "mae": 0.07845971716326276,
+                "rmse": 0.10331893898345512,
+                "r2": 0.9369983672923283,
+                "mape": 8.557418159284534,
+                "smape": 8.403158021341884
+            },
+            "full_model_coefficients": {
+                "speed": 0.001928840196371007,
+                "power": 0.005904180960807414,
+                "intercept": -0.009226700379438624
+            },
+            "relative_importance": {
+                "speed": 0.08805259553427769,
+                "power": 0.9119474044657222
+            },
+            "hyperparameters": {
+                "copy_X": true,
+                "fit_intercept": true,
+                "n_jobs": null,
+                "positive": false,
+                "tol": 1e-06
+            },
+            "reduced_model_metrics_speed_only": {
+                "mae": 0.24550450153331446,
+                "rmse": 0.3592714555531013,
+                "r2": 0.23820633599697705,
+                "mape": 31.575004130042476,
+                "smape": 29.528669522558854
+            },
+            "impact_removing_power_r2_drop": 0.6987920312953513,
+            "reduced_model_metrics_power_only": {
+                "mae": 0.08935832044395868,
+                "rmse": 0.10902573448265045,
+                "r2": 0.9298463984995504,
+                "mape": 11.195015007400182,
+                "smape": 10.7436430176014
+            },
+            "impact_removing_speed_r2_drop": 0.007151968792777907
+        },
+        {
+            "model": "ridge",
+            "full_model_metrics": {
+                "mae": 0.07846082184477833,
+                "rmse": 0.1033197435145506,
+                "r2": 0.9369973861175229,
+                "mape": 8.557649961287256,
+                "smape": 8.403381820963329
+            },
+            "full_model_coefficients": {
+                "speed": 0.0019287620796513791,
+                "power": 0.005904162719267063,
+                "intercept": -0.009220277050528636
+            },
+            "relative_importance": {
+                "speed": 0.08804959153905711,
+                "power": 0.9119504084609429
+            },
+            "hyperparameters": {
+                "alpha": 1.0,
+                "copy_X": true,
+                "fit_intercept": true,
+                "max_iter": null,
+                "positive": false,
+                "random_state": null,
+                "solver": "auto",
+                "tol": 0.0001
+            }
+        },
+        {
+            "model": "lasso",
+            "full_model_metrics": {
+                "mae": 0.10065556987832336,
+                "rmse": 0.12316583875728757,
+                "r2": 0.9104691996717043,
+                "mape": 13.24862867019229,
+                "smape": 12.465604032822268
+            },
+            "full_model_coefficients": {
+                "speed": 0.0,
+                "power": 0.005699809772198221,
+                "intercept": 0.11967222144719991
+            },
+            "relative_importance": {
+                "speed": 0.0,
+                "power": 1.0
+            },
+            "hyperparameters": {
+                "alpha": 1.0,
+                "copy_X": true,
+                "fit_intercept": true,
+                "max_iter": 1000,
+                "positive": false,
+                "precompute": false,
+                "random_state": null,
+                "selection": "cyclic",
+                "tol": 0.0001,
+                "warm_start": false
+            }
+        },
+        {
+            "model": "rf",
+            "full_model_metrics": {
+                "mae": 0.09981897549708825,
+                "rmse": 0.137262773306029,
+                "r2": 0.888801874102197,
+                "mape": 11.592477629822936,
+                "smape": 11.250679885150824
+            },
+            "full_model_coefficients": {
+                "speed": 0.0534022238359484,
+                "power": 0.9465977761640516
+            },
+            "relative_importance": {
+                "speed": 0.01640016036760012,
+                "power": 0.9835998396323999
+            },
+            "hyperparameters": {
+                "bootstrap": true,
+                "ccp_alpha": 0.0,
+                "criterion": "squared_error",
+                "max_depth": null,
+                "max_features": 1.0,
+                "max_leaf_nodes": null,
+                "max_samples": null,
+                "min_impurity_decrease": 0.0,
+                "min_samples_leaf": 1,
+                "min_samples_split": 2,
+                "min_weight_fraction_leaf": 0.0,
+                "monotonic_cst": null,
+                "n_estimators": 100,
+                "n_jobs": null,
+                "oob_score": false,
+                "random_state": 42,
+                "verbose": 0,
+                "warm_start": false
+            }
+        },
+        {
+            "model": "xgboost",
+            "full_model_metrics": {
+                "mae": 0.11750007692937954,
+                "rmse": 0.1565979210028519,
+                "r2": 0.8552682166614364,
+                "mape": 13.943916991241833,
+                "smape": 13.474876490163842
+            },
+            "full_model_coefficients": {
+                "speed": 0.03751841560006142,
+                "power": 0.9624815583229065
+            },
+            "relative_importance": {
+                "speed": 0.01138971818364961,
+                "power": 0.9886102818163504
+            },
+            "hyperparameters": {
+                "objective": "reg:squarederror",
+                "base_score": null,
+                "booster": null,
+                "callbacks": null,
+                "colsample_bylevel": null,
+                "colsample_bynode": null,
+                "colsample_bytree": null,
+                "device": null,
+                "early_stopping_rounds": null,
+                "enable_categorical": false,
+                "eval_metric": null,
+                "feature_types": null,
+                "feature_weights": null,
+                "gamma": null,
+                "grow_policy": null,
+                "importance_type": null,
+                "interaction_constraints": null,
+                "learning_rate": null,
+                "max_bin": null,
+                "max_cat_threshold": null,
+                "max_cat_to_onehot": null,
+                "max_delta_step": null,
+                "max_depth": null,
+                "max_leaves": null,
+                "min_child_weight": null,
+                "missing": NaN,
+                "monotone_constraints": null,
+                "multi_strategy": null,
+                "n_estimators": 100,
+                "n_jobs": null,
+                "num_parallel_tree": null,
+                "random_state": 42,
+                "reg_alpha": null,
+                "reg_lambda": null,
+                "sampling_method": null,
+                "scale_pos_weight": null,
+                "subsample": null,
+                "tree_method": null,
+                "validate_parameters": null,
+                "verbosity": null
+            }
+        },
+        {
+            "model": "lightgbm",
+            "full_model_metrics": {
+                "mae": 0.14807767331371877,
+                "rmse": 0.2284668649252781,
+                "r2": 0.6919378275344432,
+                "mape": 18.39950741906283,
+                "smape": 17.05893928834835
+            },
+            "full_model_coefficients": {
+                "speed": 147.0,
+                "power": 131.0
+            },
+            "relative_importance": {
+                "speed": 0.24905271184401567,
+                "power": 0.7509472881559844
+            },
+            "hyperparameters": {
+                "boosting_type": "gbdt",
+                "class_weight": null,
+                "colsample_bytree": 1.0,
+                "importance_type": "split",
+                "learning_rate": 0.1,
+                "max_depth": -1,
+                "min_child_samples": 20,
+                "min_child_weight": 0.001,
+                "min_split_gain": 0.0,
+                "n_estimators": 100,
+                "n_jobs": null,
+                "num_leaves": 31,
+                "objective": null,
+                "random_state": 42,
+                "reg_alpha": 0.0,
+                "reg_lambda": 0.0,
+                "subsample": 1.0,
+                "subsample_for_bin": 200000,
+                "subsample_freq": 0
+            }
+        },
+        {
+            "model": "polynomial",
+            "full_model_metrics": {
+                "mae": 0.07587021499471831,
+                "rmse": 0.09353724515449098,
+                "r2": 0.9483629909059723,
+                "mape": 8.951178250822158,
+                "smape": 8.756488682479079
+            },
+            "full_model_coefficients": {
+                "speed": 0.00039040809708391677,
+                "power": 0.005809743598451615,
+                "speed^2": 5.6554583030558634e-05,
+                "speed power": -3.636201452038985e-05,
+                "power^2": 7.391894626937157e-06,
+                "intercept": 0.031163747806129072
+            },
+            "relative_importance": null,
+            "hyperparameters": {
+                "memory": null,
+                "steps": "[('polynomialfeatures', PolynomialFeatures(include_bias=False)), ('linearregression', LinearRegression())]",
+                "transform_input": null,
+                "verbose": false,
+                "polynomialfeatures": "PolynomialFeatures(include_bias=False)",
+                "linearregression": "LinearRegression()",
+                "polynomialfeatures__degree": 2,
+                "polynomialfeatures__include_bias": false,
+                "polynomialfeatures__interaction_only": false,
+                "polynomialfeatures__order": "C",
+                "linearregression__copy_X": true,
+                "linearregression__fit_intercept": true,
+                "linearregression__n_jobs": null,
+                "linearregression__positive": false,
+                "linearregression__tol": 1e-06
+            }
+        },
+        {
+            "model": "gam",
+            "full_model_metrics": {
+                "mae": 0.07745115596600712,
+                "rmse": 0.09576150680450014,
+                "r2": 0.9458779957076663,
+                "mape": 8.872188667801728,
+                "smape": 8.646988289996827
+            },
+            "full_model_coefficients": null,
+            "relative_importance": null,
+            "hyperparameters": {
+                "scale": null,
+                "max_iter": 100,
+                "tol": 0.0001,
+                "callbacks": "[Deviance(), Diffs()]",
+                "verbose": false,
+                "terms": "s(0) + s(1) + intercept",
+                "fit_intercept": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,1200 @@
+nohup: ignoring input
+Found 100 CSV files.
+Models to run: linear, ridge, lasso, rf, xgboost, lightgbm, polynomial, gam
+Total experiments to run: 800
+--------------------------------------------------
+
+Processing file 1/100: LZGCD2J15PX037253.csv
+  [1/800] Running model: linear ... Done.
+  [2/800] Running model: ridge ... Done.
+  [3/800] Running model: lasso ... Done.
+  [4/800] Running model: rf ... Done.
+  [5/800] Running model: xgboost ... Done.
+  [6/800] Running model: lightgbm ... Done.
+  [7/800] Running model: polynomial ... Done.
+  [8/800] Running model: gam ... Done.
+
+Processing file 2/100: LZGCD2L10PX035262.csv
+  [9/800] Running model: linear ... Done.
+  [10/800] Running model: ridge ... Done.
+  [11/800] Running model: lasso ... Done.
+  [12/800] Running model: rf ... Done.
+  [13/800] Running model: xgboost ... Done.
+  [14/800] Running model: lightgbm ... Done.
+  [15/800] Running model: polynomial ... Done.
+  [16/800] Running model: gam ... Done.
+
+Processing file 3/100: LZGCD2L12PX023680.csv
+  [17/800] Running model: linear ... Done.
+  [18/800] Running model: ridge ... Done.
+  [19/800] Running model: lasso ... Done.
+  [20/800] Running model: rf ... Done.
+  [21/800] Running model: xgboost ... Done.
+  [22/800] Running model: lightgbm ... Done.
+  [23/800] Running model: polynomial ... Done.
+  [24/800] Running model: gam ... Done.
+
+Processing file 4/100: LZGCD2L12PX037255.csv
+  [25/800] Running model: linear ... Done.
+  [26/800] Running model: ridge ... Done.
+  [27/800] Running model: lasso ... Done.
+  [28/800] Running model: rf ... Done.
+  [29/800] Running model: xgboost ... Done.
+  [30/800] Running model: lightgbm ... Done.
+  [31/800] Running model: polynomial ... Done.
+  [32/800] Running model: gam ... Done.
+
+Processing file 5/100: LZGCD2L14PX016617.csv
+  [33/800] Running model: linear ... Done.
+  [34/800] Running model: ridge ... Done.
+  [35/800] Running model: lasso ... Done.
+  [36/800] Running model: rf ... Done.
+  [37/800] Running model: xgboost ... Done.
+  [38/800] Running model: lightgbm ... Done.
+  [39/800] Running model: polynomial ... Done.
+  [40/800] Running model: gam ... Done.
+
+Processing file 6/100: LZGCD2L16PX016618.csv
+  [41/800] Running model: linear ... Done.
+  [42/800] Running model: ridge ... Done.
+  [43/800] Running model: lasso ... Done.
+  [44/800] Running model: rf ... Done.
+  [45/800] Running model: xgboost ... Done.
+  [46/800] Running model: lightgbm ... Done.
+  [47/800] Running model: polynomial ... Done.
+  [48/800] Running model: gam ... Done.
+
+Processing file 7/100: LZGCD2L19PX036622.csv
+  [49/800] Running model: linear ... Done.
+  [50/800] Running model: ridge ... Done.
+  [51/800] Running model: lasso ... Done.
+  [52/800] Running model: rf ... Done.
+  [53/800] Running model: xgboost ... Done.
+  [54/800] Running model: lightgbm ... Done.
+  [55/800] Running model: polynomial ... Done.
+  [56/800] Running model: gam ... Done.
+
+Processing file 8/100: LZGCD2L1XPX018811.csv
+  [57/800] Running model: linear ... Done.
+  [58/800] Running model: ridge ... Done.
+  [59/800] Running model: lasso ... Done.
+  [60/800] Running model: rf ... Done.
+  [61/800] Running model: xgboost ... Done.
+  [62/800] Running model: lightgbm ... Done.
+  [63/800] Running model: polynomial ... Done.
+  [64/800] Running model: gam ... Done.
+
+Processing file 9/100: LZGCD2L1XPX033289.csv
+  [65/800] Running model: linear ... Done.
+  [66/800] Running model: ridge ... Done.
+  [67/800] Running model: lasso ... Done.
+  [68/800] Running model: rf ... Done.
+  [69/800] Running model: xgboost ... Done.
+  [70/800] Running model: lightgbm ... Done.
+  [71/800] Running model: polynomial ... Done.
+  [72/800] Running model: gam ... Done.
+
+Processing file 10/100: LZGCD2L1XPX037259.csv
+  [73/800] Running model: linear ... Done.
+  [74/800] Running model: ridge ... Done.
+  [75/800] Running model: lasso ... Done.
+  [76/800] Running model: rf ... Done.
+  [77/800] Running model: xgboost ... Done.
+  [78/800] Running model: lightgbm ... Done.
+  [79/800] Running model: polynomial ... Done.
+  [80/800] Running model: gam ... Done.
+
+Processing file 11/100: LZGCD2M11PX012328.csv
+  [81/800] Running model: linear ... Done.
+  [82/800] Running model: ridge ... Done.
+  [83/800] Running model: lasso ... Done.
+  [84/800] Running model: rf ... Done.
+  [85/800] Running model: xgboost ... Done.
+  [86/800] Running model: lightgbm ... Done.
+  [87/800] Running model: polynomial ... Done.
+  [88/800] Running model: gam ... Done.
+
+Processing file 12/100: LZGCD2N10PX061874.csv
+  [89/800] Running model: linear ... Done.
+  [90/800] Running model: ridge ... Done.
+  [91/800] Running model: lasso ... Done.
+  [92/800] Running model: rf ... Done.
+  [93/800] Running model: xgboost ... Done.
+  [94/800] Running model: lightgbm ... Done.
+  [95/800] Running model: polynomial ... Done.
+  [96/800] Running model: gam ... Done.
+
+Processing file 13/100: LZGCD2N14PX045919.csv
+  [97/800] Running model: linear ... Done.
+  [98/800] Running model: ridge ... Done.
+  [99/800] Running model: lasso ... Done.
+  [100/800] Running model: rf ... Done.
+  [101/800] Running model: xgboost ... Done.
+  [102/800] Running model: lightgbm ... Done.
+  [103/800] Running model: polynomial ... Done.
+  [104/800] Running model: gam ... Done.
+
+Processing file 14/100: LZGCD2N17PX045915.csv
+  [105/800] Running model: linear ... Done.
+  [106/800] Running model: ridge ... Done.
+  [107/800] Running model: lasso ... Done.
+  [108/800] Running model: rf ... Done.
+  [109/800] Running model: xgboost ... Done.
+  [110/800] Running model: lightgbm ... Done.
+  [111/800] Running model: polynomial ... Done.
+  [112/800] Running model: gam ... Done.
+
+Processing file 15/100: LZGCD2N18PX035233.csv
+  [113/800] Running model: linear ... Done.
+  [114/800] Running model: ridge ... Done.
+  [115/800] Running model: lasso ... Done.
+  [116/800] Running model: rf ... Done.
+  [117/800] Running model: xgboost ... Done.
+  [118/800] Running model: lightgbm ... Done.
+  [119/800] Running model: polynomial ... Done.
+  [120/800] Running model: gam ... Done.
+
+Processing file 16/100: LZGCD2N19PX045933.csv
+  [121/800] Running model: linear ... Done.
+  [122/800] Running model: ridge ... Done.
+  [123/800] Running model: lasso ... Done.
+  [124/800] Running model: rf ... Done.
+  [125/800] Running model: xgboost ... Done.
+  [126/800] Running model: lightgbm ... Done.
+  [127/800] Running model: polynomial ... Done.
+  [128/800] Running model: gam ... Done.
+
+Processing file 17/100: LZGCD2N19PX064871.csv
+  [129/800] Running model: linear ... Done.
+  [130/800] Running model: ridge ... Done.
+  [131/800] Running model: lasso ... Done.
+  [132/800] Running model: rf ... Done.
+  [133/800] Running model: xgboost ... Done.
+  [134/800] Running model: lightgbm ... Done.
+  [135/800] Running model: polynomial ... Done.
+  [136/800] Running model: gam ... Done.
+
+Processing file 18/100: LZGCL2N91PX018802.csv
+  [137/800] Running model: linear ... Done.
+  [138/800] Running model: ridge ... Done.
+  [139/800] Running model: lasso ... Done.
+  [140/800] Running model: rf ... Done.
+  [141/800] Running model: xgboost ... Done.
+  [142/800] Running model: lightgbm ... Done.
+  [143/800] Running model: polynomial ... Done.
+  [144/800] Running model: gam ... Done.
+
+Processing file 19/100: LZGCL2N94PX035027.csv
+  [145/800] Running model: linear ... Done.
+  [146/800] Running model: ridge ... Done.
+  [147/800] Running model: lasso ... Done.
+  [148/800] Running model: rf ... Done.
+  [149/800] Running model: xgboost ... Done.
+  [150/800] Running model: lightgbm ... Done.
+  [151/800] Running model: polynomial ... Done.
+  [152/800] Running model: gam ... Done.
+
+Processing file 20/100: LZGCL2R41PX029605.csv
+  [153/800] Running model: linear ... Done.
+  [154/800] Running model: ridge ... Done.
+  [155/800] Running model: lasso ... Done.
+  [156/800] Running model: rf ... Done.
+  [157/800] Running model: xgboost ... Done.
+  [158/800] Running model: lightgbm ... Done.
+  [159/800] Running model: polynomial ... Done.
+  [160/800] Running model: gam ... Done.
+
+Processing file 21/100: LZGCL2R4XPX029604.csv
+  [161/800] Running model: linear ... Done.
+  [162/800] Running model: ridge ... Done.
+  [163/800] Running model: lasso ... Done.
+  [164/800] Running model: rf ... Done.
+  [165/800] Running model: xgboost ... Done.
+  [166/800] Running model: lightgbm ... Done.
+  [167/800] Running model: polynomial ... Done.
+  [168/800] Running model: gam ... Done.
+
+Processing file 22/100: LZGCR2860PX041133.csv
+  [169/800] Running model: linear ... Done.
+  [170/800] Running model: ridge ... Done.
+  [171/800] Running model: lasso ... Done.
+  [172/800] Running model: rf ... Done.
+  [173/800] Running model: xgboost ... Done.
+  [174/800] Running model: lightgbm ... Done.
+  [175/800] Running model: polynomial ... Done.
+  [176/800] Running model: gam ... Done.
+
+Processing file 23/100: LZGCR2861PX014961.csv
+  [177/800] Running model: linear ... Done.
+  [178/800] Running model: ridge ... Done.
+  [179/800] Running model: lasso ... Done.
+  [180/800] Running model: rf ... Done.
+  [181/800] Running model: xgboost ... Done.
+  [182/800] Running model: lightgbm ... Done.
+  [183/800] Running model: polynomial ... Done.
+  [184/800] Running model: gam ... Done.
+
+Processing file 24/100: LZGCR2862PX030277.csv
+  [185/800] Running model: linear ... Done.
+  [186/800] Running model: ridge ... Done.
+  [187/800] Running model: lasso ... Done.
+  [188/800] Running model: rf ... Done.
+  [189/800] Running model: xgboost ... Done.
+  [190/800] Running model: lightgbm ... Done.
+  [191/800] Running model: polynomial ... Done.
+  [192/800] Running model: gam ... Done.
+
+Processing file 25/100: LZGCR2862PX033003.csv
+  [193/800] Running model: linear ... Done.
+  [194/800] Running model: ridge ... Done.
+  [195/800] Running model: lasso ... Done.
+  [196/800] Running model: rf ... Done.
+  [197/800] Running model: xgboost ... Done.
+  [198/800] Running model: lightgbm ... Done.
+  [199/800] Running model: polynomial ... Done.
+  [200/800] Running model: gam ... Done.
+
+Processing file 26/100: LZGCR2864PX011827.csv
+  [201/800] Running model: linear ... Done.
+  [202/800] Running model: ridge ... Done.
+  [203/800] Running model: lasso ... Done.
+  [204/800] Running model: rf ... Done.
+  [205/800] Running model: xgboost ... Done.
+  [206/800] Running model: lightgbm ... Done.
+  [207/800] Running model: polynomial ... Done.
+  [208/800] Running model: gam ... Done.
+
+Processing file 27/100: LZGCR2864PX027400.csv
+  [209/800] Running model: linear ... Done.
+  [210/800] Running model: ridge ... Done.
+  [211/800] Running model: lasso ... Done.
+  [212/800] Running model: rf ... Done.
+  [213/800] Running model: xgboost ... Done.
+  [214/800] Running model: lightgbm ... Done.
+  [215/800] Running model: polynomial ... Done.
+  [216/800] Running model: gam ... Done.
+
+Processing file 28/100: LZGCR2866PX011828.csv
+  [217/800] Running model: linear ... Done.
+  [218/800] Running model: ridge ... Done.
+  [219/800] Running model: lasso ... Done.
+  [220/800] Running model: rf ... Done.
+  [221/800] Running model: xgboost ... Done.
+  [222/800] Running model: lightgbm ... Done.
+  [223/800] Running model: polynomial ... Done.
+  [224/800] Running model: gam ... Done.
+
+Processing file 29/100: LZGCR2866PX030279.csv
+  [225/800] Running model: linear ... Done.
+  [226/800] Running model: ridge ... Done.
+  [227/800] Running model: lasso ... Done.
+  [228/800] Running model: rf ... Done.
+  [229/800] Running model: xgboost ... Done.
+  [230/800] Running model: lightgbm ... Done.
+  [231/800] Running model: polynomial ... Done.
+  [232/800] Running model: gam ... Done.
+
+Processing file 30/100: LZGCR2866PX038950.csv
+  [233/800] Running model: linear ... Done.
+  [234/800] Running model: ridge ... Done.
+  [235/800] Running model: lasso ... Done.
+  [236/800] Running model: rf ... Done.
+  [237/800] Running model: xgboost ... Done.
+  [238/800] Running model: lightgbm ... Done.
+  [239/800] Running model: polynomial ... Done.
+  [240/800] Running model: gam ... Done.
+
+Processing file 31/100: LZGCR2868PX033622.csv
+  [241/800] Running model: linear ... Done.
+  [242/800] Running model: ridge ... Done.
+  [243/800] Running model: lasso ... Done.
+  [244/800] Running model: rf ... Done.
+  [245/800] Running model: xgboost ... Done.
+  [246/800] Running model: lightgbm ... Done.
+  [247/800] Running model: polynomial ... Done.
+  [248/800] Running model: gam ... Done.
+
+Processing file 32/100: LZGCR2869PX012908.csv
+  [249/800] Running model: linear ... Done.
+  [250/800] Running model: ridge ... Done.
+  [251/800] Running model: lasso ... Done.
+  [252/800] Running model: rf ... Done.
+  [253/800] Running model: xgboost ... Done.
+  [254/800] Running model: lightgbm ... Done.
+  [255/800] Running model: polynomial ... Done.
+  [256/800] Running model: gam ... Done.
+
+Processing file 33/100: LZGCR2869PX041132.csv
+  [257/800] Running model: linear ... Done.
+  [258/800] Running model: ridge ... Done.
+  [259/800] Running model: lasso ... Done.
+  [260/800] Running model: rf ... Done.
+  [261/800] Running model: xgboost ... Done.
+  [262/800] Running model: lightgbm ... Done.
+  [263/800] Running model: polynomial ... Done.
+  [264/800] Running model: gam ... Done.
+
+Processing file 34/100: LZGCR286XPX014960.csv
+  [265/800] Running model: linear ... Done.
+  [266/800] Running model: ridge ... Done.
+  [267/800] Running model: lasso ... Done.
+  [268/800] Running model: rf ... Done.
+  [269/800] Running model: xgboost ... Done.
+  [270/800] Running model: lightgbm ... Done.
+  [271/800] Running model: polynomial ... Done.
+  [272/800] Running model: gam ... Done.
+
+Processing file 35/100: LZGCR2R60PX044371.csv
+  [273/800] Running model: linear ... Done.
+  [274/800] Running model: ridge ... Done.
+  [275/800] Running model: lasso ... Done.
+  [276/800] Running model: rf ... Done.
+  [277/800] Running model: xgboost ... Done.
+  [278/800] Running model: lightgbm ... Done.
+  [279/800] Running model: polynomial ... Done.
+  [280/800] Running model: gam ... Done.
+
+Processing file 36/100: LZGCR2R62NX067597.csv
+  [281/800] Running model: linear ... Done.
+  [282/800] Running model: ridge ... Done.
+  [283/800] Running model: lasso ... Done.
+  [284/800] Running model: rf ... Done.
+  [285/800] Running model: xgboost ... Done.
+  [286/800] Running model: lightgbm ... Done.
+  [287/800] Running model: polynomial ... Done.
+  [288/800] Running model: gam ... Done.
+
+Processing file 37/100: LZGCR2R62NX067700.csv
+  [289/800] Running model: linear ... Done.
+  [290/800] Running model: ridge ... Done.
+  [291/800] Running model: lasso ... Done.
+  [292/800] Running model: rf ... Done.
+  [293/800] Running model: xgboost ... Done.
+  [294/800] Running model: lightgbm ... Done.
+  [295/800] Running model: polynomial ... Done.
+  [296/800] Running model: gam ... Done.
+
+Processing file 38/100: LZGCR2R66MX054446.csv
+  [297/800] Running model: linear ... Done.
+  [298/800] Running model: ridge ... Done.
+  [299/800] Running model: lasso ... Done.
+  [300/800] Running model: rf ... Done.
+  [301/800] Running model: xgboost ... Done.
+  [302/800] Running model: lightgbm ... Done.
+  [303/800] Running model: polynomial ... Done.
+  [304/800] Running model: gam ... Done.
+
+Processing file 39/100: LZGCR2R67NX067692.csv
+  [305/800] Running model: linear ... Done.
+  [306/800] Running model: ridge ... Done.
+  [307/800] Running model: lasso ... Done.
+  [308/800] Running model: rf ... Done.
+  [309/800] Running model: xgboost ... Done.
+  [310/800] Running model: lightgbm ... Done.
+  [311/800] Running model: polynomial ... Done.
+  [312/800] Running model: gam ... Done.
+
+Processing file 40/100: LZGCR2R69NX068780.csv
+  [313/800] Running model: linear ... Done.
+  [314/800] Running model: ridge ... Done.
+  [315/800] Running model: lasso ... Done.
+  [316/800] Running model: rf ... Done.
+  [317/800] Running model: xgboost ... Done.
+  [318/800] Running model: lightgbm ... Done.
+  [319/800] Running model: polynomial ... Done.
+  [320/800] Running model: gam ... Done.
+
+Processing file 41/100: LZGCR2R6XNX068660.csv
+  [321/800] Running model: linear ... Done.
+  [322/800] Running model: ridge ... Done.
+  [323/800] Running model: lasso ... Done.
+  [324/800] Running model: rf ... Done.
+  [325/800] Running model: xgboost ... Done.
+  [326/800] Running model: lightgbm ... Done.
+  [327/800] Running model: polynomial ... Done.
+  [328/800] Running model: gam ... Done.
+
+Processing file 42/100: LZGCR2U60PX015105.csv
+  [329/800] Running model: linear ... Done.
+  [330/800] Running model: ridge ... Done.
+  [331/800] Running model: lasso ... Done.
+  [332/800] Running model: rf ... Done.
+  [333/800] Running model: xgboost ... Done.
+  [334/800] Running model: lightgbm ... Done.
+  [335/800] Running model: polynomial ... Done.
+  [336/800] Running model: gam ... Done.
+
+Processing file 43/100: LZGCR2U60PX054597.csv
+  [337/800] Running model: linear ... Done.
+  [338/800] Running model: ridge ... Done.
+  [339/800] Running model: lasso ... Done.
+  [340/800] Running model: rf ... Done.
+  [341/800] Running model: xgboost ... Done.
+  [342/800] Running model: lightgbm ... Done.
+  [343/800] Running model: polynomial ... Done.
+  [344/800] Running model: gam ... Done.
+
+Processing file 44/100: LZGCR2U61PX055290.csv
+  [345/800] Running model: linear ... Done.
+  [346/800] Running model: ridge ... Done.
+  [347/800] Running model: lasso ... Done.
+  [348/800] Running model: rf ... Done.
+  [349/800] Running model: xgboost ... Done.
+  [350/800] Running model: lightgbm ... Done.
+  [351/800] Running model: polynomial ... Done.
+  [352/800] Running model: gam ... Done.
+
+Processing file 45/100: LZGCR2U62PX015106.csv
+  [353/800] Running model: linear ... Done.
+  [354/800] Running model: ridge ... Done.
+  [355/800] Running model: lasso ... Done.
+  [356/800] Running model: rf ... Done.
+  [357/800] Running model: xgboost ... Done.
+  [358/800] Running model: lightgbm ... Done.
+  [359/800] Running model: polynomial ... Done.
+  [360/800] Running model: gam ... Done.
+
+Processing file 46/100: LZGCR2U62PX054598.csv
+  [361/800] Running model: linear ... Done.
+  [362/800] Running model: ridge ... Done.
+  [363/800] Running model: lasso ... Done.
+  [364/800] Running model: rf ... Done.
+  [365/800] Running model: xgboost ... Done.
+  [366/800] Running model: lightgbm ... Done.
+  [367/800] Running model: polynomial ... Done.
+  [368/800] Running model: gam ... Done.
+
+Processing file 47/100: LZGCR2U63PX020153.csv
+  [369/800] Running model: linear ... Done.
+  [370/800] Running model: ridge ... Done.
+  [371/800] Running model: lasso ... Done.
+  [372/800] Running model: rf ... Done.
+  [373/800] Running model: xgboost ... Done.
+  [374/800] Running model: lightgbm ... Done.
+  [375/800] Running model: polynomial ... Done.
+  [376/800] Running model: gam ... Done.
+
+Processing file 48/100: LZGCR2U64PX015107.csv
+  [377/800] Running model: linear ... Done.
+  [378/800] Running model: ridge ... Done.
+  [379/800] Running model: lasso ... Done.
+  [380/800] Running model: rf ... Done.
+  [381/800] Running model: xgboost ... Done.
+  [382/800] Running model: lightgbm ... Done.
+  [383/800] Running model: polynomial ... Done.
+  [384/800] Running model: gam ... Done.
+
+Processing file 49/100: LZGCR2U66PX015108.csv
+  [385/800] Running model: linear ... Done.
+  [386/800] Running model: ridge ... Done.
+  [387/800] Running model: lasso ... Done.
+  [388/800] Running model: rf ... Done.
+  [389/800] Running model: xgboost ... Done.
+  [390/800] Running model: lightgbm ... Done.
+  [391/800] Running model: polynomial ... Done.
+  [392/800] Running model: gam ... Done.
+
+Processing file 50/100: LZGCR2U67PX038249.csv
+  [393/800] Running model: linear ... Done.
+  [394/800] Running model: ridge ... Done.
+  [395/800] Running model: lasso ... Done.
+  [396/800] Running model: rf ... Done.
+  [397/800] Running model: xgboost ... Done.
+  [398/800] Running model: lightgbm ... Done.
+  [399/800] Running model: polynomial ... Done.
+  [400/800] Running model: gam ... Done.
+
+Processing file 51/100: LZGCR2U68PX015109.csv
+  [401/800] Running model: linear ... Done.
+  [402/800] Running model: ridge ... Done.
+  [403/800] Running model: lasso ... Done.
+  [404/800] Running model: rf ... Done.
+  [405/800] Running model: xgboost ... Done.
+  [406/800] Running model: lightgbm ... Done.
+  [407/800] Running model: polynomial ... Done.
+  [408/800] Running model: gam ... Done.
+
+Processing file 52/100: LZGCR2U69PX015104.csv
+  [409/800] Running model: linear ... Done.
+  [410/800] Running model: ridge ... Done.
+  [411/800] Running model: lasso ... Done.
+  [412/800] Running model: rf ... Done.
+  [413/800] Running model: xgboost ... Done.
+  [414/800] Running model: lightgbm ... Done.
+  [415/800] Running model: polynomial ... Done.
+  [416/800] Running model: gam ... Done.
+
+Processing file 53/100: LZGCR2X60PX029467.csv
+  [417/800] Running model: linear ... Done.
+  [418/800] Running model: ridge ... Done.
+  [419/800] Running model: lasso ... Done.
+  [420/800] Running model: rf ... Done.
+  [421/800] Running model: xgboost ... Done.
+  [422/800] Running model: lightgbm ... Done.
+  [423/800] Running model: polynomial ... Done.
+  [424/800] Running model: gam ... Done.
+
+Processing file 54/100: LZGCR2X61PX026349.csv
+  [425/800] Running model: linear ... Done.
+  [426/800] Running model: ridge ... Done.
+  [427/800] Running model: lasso ... Done.
+  [428/800] Running model: rf ... Done.
+  [429/800] Running model: xgboost ... Done.
+  [430/800] Running model: lightgbm ... Done.
+  [431/800] Running model: polynomial ... Done.
+  [432/800] Running model: gam ... Done.
+
+Processing file 55/100: LZGCR2X63PX029463.csv
+  [433/800] Running model: linear ... Done.
+  [434/800] Running model: ridge ... Done.
+  [435/800] Running model: lasso ... Done.
+  [436/800] Running model: rf ... Done.
+  [437/800] Running model: xgboost ... Done.
+  [438/800] Running model: lightgbm ... Done.
+  [439/800] Running model: polynomial ... Done.
+  [440/800] Running model: gam ... Done.
+
+Processing file 56/100: LZGCR2Y61PX066221.csv
+  [441/800] Running model: linear ... Done.
+  [442/800] Running model: ridge ... Done.
+  [443/800] Running model: lasso ... Done.
+  [444/800] Running model: rf ... Done.
+  [445/800] Running model: xgboost ... Done.
+  [446/800] Running model: lightgbm ... Done.
+  [447/800] Running model: polynomial ... Done.
+  [448/800] Running model: gam ... Done.
+
+Processing file 57/100: LZGCR2Y67PX048029.csv
+  [449/800] Running model: linear ... Done.
+  [450/800] Running model: ridge ... Done.
+  [451/800] Running model: lasso ... Done.
+  [452/800] Running model: rf ... Done.
+  [453/800] Running model: xgboost ... Done.
+  [454/800] Running model: lightgbm ... Done.
+  [455/800] Running model: polynomial ... Done.
+  [456/800] Running model: gam ... Done.
+
+Processing file 58/100: LZGJL3Z44PX030390.csv
+  [457/800] Running model: linear ... Done.
+  [458/800] Running model: ridge ... Done.
+  [459/800] Running model: lasso ... Done.
+  [460/800] Running model: rf ... Done.
+  [461/800] Running model: xgboost ... Done.
+  [462/800] Running model: lightgbm ... Done.
+  [463/800] Running model: polynomial ... Done.
+  [464/800] Running model: gam ... Done.
+
+Processing file 59/100: LZGJL3Z48PX029064.csv
+  [465/800] Running model: linear ... Done.
+  [466/800] Running model: ridge ... Done.
+  [467/800] Running model: lasso ... Done.
+  [468/800] Running model: rf ... Done.
+  [469/800] Running model: xgboost ... Done.
+  [470/800] Running model: lightgbm ... Done.
+  [471/800] Running model: polynomial ... Done.
+  [472/800] Running model: gam ... Done.
+
+Processing file 60/100: LZGJL4840PX018129.csv
+  [473/800] Running model: linear ... Done.
+  [474/800] Running model: ridge ... Done.
+  [475/800] Running model: lasso ... Done.
+  [476/800] Running model: rf ... Done.
+  [477/800] Running model: xgboost ... Done.
+  [478/800] Running model: lightgbm ... Done.
+  [479/800] Running model: polynomial ... Done.
+  [480/800] Running model: gam ... Done.
+
+Processing file 61/100: LZGJL4840PX022150.csv
+  [481/800] Running model: linear ... Done.
+  [482/800] Running model: ridge ... Done.
+  [483/800] Running model: lasso ... Done.
+  [484/800] Running model: rf ... Done.
+  [485/800] Running model: xgboost ... Done.
+  [486/800] Running model: lightgbm ... Done.
+  [487/800] Running model: polynomial ... Done.
+  [488/800] Running model: gam ... Done.
+
+Processing file 62/100: LZGJL4840PX031530.csv
+  [489/800] Running model: linear ... Done.
+  [490/800] Running model: ridge ... Done.
+  [491/800] Running model: lasso ... Done.
+  [492/800] Running model: rf ... Done.
+  [493/800] Running model: xgboost ... Done.
+  [494/800] Running model: lightgbm ... Done.
+  [495/800] Running model: polynomial ... Done.
+  [496/800] Running model: gam ... Done.
+
+Processing file 63/100: LZGJL4840PX039658.csv
+  [497/800] Running model: linear ... Done.
+  [498/800] Running model: ridge ... Done.
+  [499/800] Running model: lasso ... Done.
+  [500/800] Running model: rf ... Done.
+  [501/800] Running model: xgboost ... Done.
+  [502/800] Running model: lightgbm ... Done.
+  [503/800] Running model: polynomial ... Done.
+  [504/800] Running model: gam ... Done.
+
+Processing file 64/100: LZGJL4842PX008704.csv
+  [505/800] Running model: linear ... Done.
+  [506/800] Running model: ridge ... Done.
+  [507/800] Running model: lasso ... Done.
+  [508/800] Running model: rf ... Done.
+  [509/800] Running model: xgboost ... Done.
+  [510/800] Running model: lightgbm ... Done.
+  [511/800] Running model: polynomial ... Done.
+  [512/800] Running model: gam ... Done.
+
+Processing file 65/100: LZGJL4844PX041526.csv
+  [513/800] Running model: linear ... Done.
+  [514/800] Running model: ridge ... Done.
+  [515/800] Running model: lasso ... Done.
+  [516/800] Running model: rf ... Done.
+  [517/800] Running model: xgboost ... Done.
+  [518/800] Running model: lightgbm ... Done.
+  [519/800] Running model: polynomial ... Done.
+  [520/800] Running model: gam ... Done.
+
+Processing file 66/100: LZGJL4844PX055331.csv
+  [521/800] Running model: linear ... Done.
+  [522/800] Running model: ridge ... Done.
+  [523/800] Running model: lasso ... Done.
+  [524/800] Running model: rf ... Done.
+  [525/800] Running model: xgboost ... Done.
+  [526/800] Running model: lightgbm ... Done.
+  [527/800] Running model: polynomial ... Done.
+  [528/800] Running model: gam ... Done.
+
+Processing file 67/100: LZGJL4846PX008768.csv
+  [529/800] Running model: linear ... Done.
+  [530/800] Running model: ridge ... Done.
+  [531/800] Running model: lasso ... Done.
+  [532/800] Running model: rf ... Done.
+  [533/800] Running model: xgboost ... Done.
+  [534/800] Running model: lightgbm ... Done.
+  [535/800] Running model: polynomial ... Done.
+  [536/800] Running model: gam ... Done.
+
+Processing file 68/100: LZGJL4847PX032318.csv
+  [537/800] Running model: linear ... Done.
+  [538/800] Running model: ridge ... Done.
+  [539/800] Running model: lasso ... Done.
+  [540/800] Running model: rf ... Done.
+  [541/800] Running model: xgboost ... Done.
+  [542/800] Running model: lightgbm ... Done.
+  [543/800] Running model: polynomial ... Done.
+  [544/800] Running model: gam ... Done.
+
+Processing file 69/100: LZGJL4847PX040273.csv
+  [545/800] Running model: linear ... Done.
+  [546/800] Running model: ridge ... Done.
+  [547/800] Running model: lasso ... Done.
+  [548/800] Running model: rf ... Done.
+  [549/800] Running model: xgboost ... Done.
+  [550/800] Running model: lightgbm ... Done.
+  [551/800] Running model: polynomial ... Done.
+  [552/800] Running model: gam ... Done.
+
+Processing file 70/100: LZGJL4847PX053217.csv
+  [553/800] Running model: linear ... Done.
+  [554/800] Running model: ridge ... Done.
+  [555/800] Running model: lasso ... Done.
+  [556/800] Running model: rf ... Done.
+  [557/800] Running model: xgboost ... Done.
+  [558/800] Running model: lightgbm ... Done.
+  [559/800] Running model: polynomial ... Done.
+  [560/800] Running model: gam ... Done.
+
+Processing file 71/100: LZGJL4847PX064282.csv
+  [561/800] Running model: linear ... Done.
+  [562/800] Running model: ridge ... Done.
+  [563/800] Running model: lasso ... Done.
+  [564/800] Running model: rf ... Done.
+  [565/800] Running model: xgboost ... Done.
+  [566/800] Running model: lightgbm ... Done.
+  [567/800] Running model: polynomial ... Done.
+  [568/800] Running model: gam ... Done.
+
+Processing file 72/100: LZGJL4848PX053811.csv
+  [569/800] Running model: linear ... Done.
+  [570/800] Running model: ridge ... Done.
+  [571/800] Running model: lasso ... Done.
+  [572/800] Running model: rf ... Done.
+  [573/800] Running model: xgboost ... Done.
+  [574/800] Running model: lightgbm ... Done.
+  [575/800] Running model: polynomial ... Done.
+  [576/800] Running model: gam ... Done.
+
+Processing file 73/100: LZGJL4849PX027735.csv
+  [577/800] Running model: linear ... Done.
+  [578/800] Running model: ridge ... Done.
+  [579/800] Running model: lasso ... Done.
+  [580/800] Running model: rf ... Done.
+  [581/800] Running model: xgboost ... Done.
+  [582/800] Running model: lightgbm ... Done.
+  [583/800] Running model: polynomial ... Done.
+  [584/800] Running model: gam ... Done.
+
+Processing file 74/100: LZGJL4849PX029047.csv
+  [585/800] Running model: linear ... Done.
+  [586/800] Running model: ridge ... Done.
+  [587/800] Running model: lasso ... Done.
+  [588/800] Running model: rf ... Done.
+  [589/800] Running model: xgboost ... Done.
+  [590/800] Running model: lightgbm ... Done.
+  [591/800] Running model: polynomial ... Done.
+  [592/800] Running model: gam ... Done.
+
+Processing file 75/100: LZGJL4849PX060444.csv
+  [593/800] Running model: linear ... Done.
+  [594/800] Running model: ridge ... Done.
+  [595/800] Running model: lasso ... Done.
+  [596/800] Running model: rf ... Done.
+  [597/800] Running model: xgboost ... Done.
+  [598/800] Running model: lightgbm ... Done.
+  [599/800] Running model: polynomial ... Done.
+  [600/800] Running model: gam ... Done.
+
+Processing file 76/100: LZGJL484XPX038050.csv
+  [601/800] Running model: linear ... Failed!
+    Error output:
+2026-02-01 19:48:30,662 INFO: Loading and sampling source: data/LZGJL484XPX038050.csv
+Traceback (most recent call last):
+  File "/data/CarbonEmission/FinalUltimateDataProcess/src/main.py", line 374, in <module>
+    main()
+  File "/data/CarbonEmission/FinalUltimateDataProcess/src/main.py", line 101, in main
+    sampled, metadata = build_dataset_from_source(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/CarbonEmission/FinalUltimateDataProcess/src/pipeline.py", line 79, in build_dataset_from_source
+    sampled = sampled.dropna(
+              ^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/pandas/core/frame.py", line 6670, in dropna
+    raise KeyError(np.array(subset)[check].tolist())
+KeyError: ['usage_rate', 'speed_mean', 'power_mean', 'road_type']
+
+  [602/800] Running model: ridge ... Failed!
+    Error output:
+2026-02-01 19:48:32,218 INFO: Loading and sampling source: data/LZGJL484XPX038050.csv
+Traceback (most recent call last):
+  File "/data/CarbonEmission/FinalUltimateDataProcess/src/main.py", line 374, in <module>
+    main()
+  File "/data/CarbonEmission/FinalUltimateDataProcess/src/main.py", line 101, in main
+    sampled, metadata = build_dataset_from_source(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/CarbonEmission/FinalUltimateDataProcess/src/pipeline.py", line 79, in build_dataset_from_source
+    sampled = sampled.dropna(
+              ^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/pandas/core/frame.py", line 6670, in dropna
+    raise KeyError(np.array(subset)[check].tolist())
+KeyError: ['usage_rate', 'speed_mean', 'power_mean', 'road_type']
+
+  [603/800] Running model: lasso ... Failed!
+    Error output:
+2026-02-01 19:48:33,767 INFO: Loading and sampling source: data/LZGJL484XPX038050.csv
+Traceback (most recent call last):
+  File "/data/CarbonEmission/FinalUltimateDataProcess/src/main.py", line 374, in <module>
+    main()
+  File "/data/CarbonEmission/FinalUltimateDataProcess/src/main.py", line 101, in main
+    sampled, metadata = build_dataset_from_source(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/CarbonEmission/FinalUltimateDataProcess/src/pipeline.py", line 79, in build_dataset_from_source
+    sampled = sampled.dropna(
+              ^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/pandas/core/frame.py", line 6670, in dropna
+    raise KeyError(np.array(subset)[check].tolist())
+KeyError: ['usage_rate', 'speed_mean', 'power_mean', 'road_type']
+
+  [604/800] Running model: rf ... Failed!
+    Error output:
+2026-02-01 19:48:35,259 INFO: Loading and sampling source: data/LZGJL484XPX038050.csv
+Traceback (most recent call last):
+  File "/data/CarbonEmission/FinalUltimateDataProcess/src/main.py", line 374, in <module>
+    main()
+  File "/data/CarbonEmission/FinalUltimateDataProcess/src/main.py", line 101, in main
+    sampled, metadata = build_dataset_from_source(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/CarbonEmission/FinalUltimateDataProcess/src/pipeline.py", line 79, in build_dataset_from_source
+    sampled = sampled.dropna(
+              ^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/pandas/core/frame.py", line 6670, in dropna
+    raise KeyError(np.array(subset)[check].tolist())
+KeyError: ['usage_rate', 'speed_mean', 'power_mean', 'road_type']
+
+  [605/800] Running model: xgboost ... Failed!
+    Error output:
+2026-02-01 19:48:36,784 INFO: Loading and sampling source: data/LZGJL484XPX038050.csv
+Traceback (most recent call last):
+  File "/data/CarbonEmission/FinalUltimateDataProcess/src/main.py", line 374, in <module>
+    main()
+  File "/data/CarbonEmission/FinalUltimateDataProcess/src/main.py", line 101, in main
+    sampled, metadata = build_dataset_from_source(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/CarbonEmission/FinalUltimateDataProcess/src/pipeline.py", line 79, in build_dataset_from_source
+    sampled = sampled.dropna(
+              ^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/pandas/core/frame.py", line 6670, in dropna
+    raise KeyError(np.array(subset)[check].tolist())
+KeyError: ['usage_rate', 'speed_mean', 'power_mean', 'road_type']
+
+  [606/800] Running model: lightgbm ... Failed!
+    Error output:
+2026-02-01 19:48:38,291 INFO: Loading and sampling source: data/LZGJL484XPX038050.csv
+Traceback (most recent call last):
+  File "/data/CarbonEmission/FinalUltimateDataProcess/src/main.py", line 374, in <module>
+    main()
+  File "/data/CarbonEmission/FinalUltimateDataProcess/src/main.py", line 101, in main
+    sampled, metadata = build_dataset_from_source(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/CarbonEmission/FinalUltimateDataProcess/src/pipeline.py", line 79, in build_dataset_from_source
+    sampled = sampled.dropna(
+              ^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/pandas/core/frame.py", line 6670, in dropna
+    raise KeyError(np.array(subset)[check].tolist())
+KeyError: ['usage_rate', 'speed_mean', 'power_mean', 'road_type']
+
+  [607/800] Running model: polynomial ... Failed!
+    Error output:
+2026-02-01 19:48:39,783 INFO: Loading and sampling source: data/LZGJL484XPX038050.csv
+Traceback (most recent call last):
+  File "/data/CarbonEmission/FinalUltimateDataProcess/src/main.py", line 374, in <module>
+    main()
+  File "/data/CarbonEmission/FinalUltimateDataProcess/src/main.py", line 101, in main
+    sampled, metadata = build_dataset_from_source(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/CarbonEmission/FinalUltimateDataProcess/src/pipeline.py", line 79, in build_dataset_from_source
+    sampled = sampled.dropna(
+              ^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/pandas/core/frame.py", line 6670, in dropna
+    raise KeyError(np.array(subset)[check].tolist())
+KeyError: ['usage_rate', 'speed_mean', 'power_mean', 'road_type']
+
+  [608/800] Running model: gam ... Failed!
+    Error output:
+2026-02-01 19:48:41,338 INFO: Loading and sampling source: data/LZGJL484XPX038050.csv
+Traceback (most recent call last):
+  File "/data/CarbonEmission/FinalUltimateDataProcess/src/main.py", line 374, in <module>
+    main()
+  File "/data/CarbonEmission/FinalUltimateDataProcess/src/main.py", line 101, in main
+    sampled, metadata = build_dataset_from_source(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/CarbonEmission/FinalUltimateDataProcess/src/pipeline.py", line 79, in build_dataset_from_source
+    sampled = sampled.dropna(
+              ^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/pandas/core/frame.py", line 6670, in dropna
+    raise KeyError(np.array(subset)[check].tolist())
+KeyError: ['usage_rate', 'speed_mean', 'power_mean', 'road_type']
+
+
+Processing file 77/100: LZGJL484XPX042129.csv
+  [609/800] Running model: linear ... Done.
+  [610/800] Running model: ridge ... Done.
+  [611/800] Running model: lasso ... Done.
+  [612/800] Running model: rf ... Done.
+  [613/800] Running model: xgboost ... Done.
+  [614/800] Running model: lightgbm ... Done.
+  [615/800] Running model: polynomial ... Done.
+  [616/800] Running model: gam ... Done.
+
+Processing file 78/100: LZGJL484XPX047587.csv
+  [617/800] Running model: linear ... Done.
+  [618/800] Running model: ridge ... Done.
+  [619/800] Running model: lasso ... Done.
+  [620/800] Running model: rf ... Done.
+  [621/800] Running model: xgboost ... Done.
+  [622/800] Running model: lightgbm ... Done.
+  [623/800] Running model: polynomial ... Done.
+  [624/800] Running model: gam ... Done.
+
+Processing file 79/100: LZGJL4X49PX035352.csv
+  [625/800] Running model: linear ... Done.
+  [626/800] Running model: ridge ... Done.
+  [627/800] Running model: lasso ... Done.
+  [628/800] Running model: rf ... Done.
+  [629/800] Running model: xgboost ... Done.
+  [630/800] Running model: lightgbm ... Done.
+  [631/800] Running model: polynomial ... Done.
+  [632/800] Running model: gam ... Done.
+
+Processing file 80/100: LZGJL4Z40PX019957.csv
+  [633/800] Running model: linear ... Done.
+  [634/800] Running model: ridge ... Done.
+  [635/800] Running model: lasso ... Done.
+  [636/800] Running model: rf ... Done.
+  [637/800] Running model: xgboost ... Done.
+  [638/800] Running model: lightgbm ... Done.
+  [639/800] Running model: polynomial ... Done.
+  [640/800] Running model: gam ... Done.
+
+Processing file 81/100: LZGJL4Z40PX029954.csv
+  [641/800] Running model: linear ... Done.
+  [642/800] Running model: ridge ... Done.
+  [643/800] Running model: lasso ... Done.
+  [644/800] Running model: rf ... Done.
+  [645/800] Running model: xgboost ... Done.
+  [646/800] Running model: lightgbm ... Done.
+  [647/800] Running model: polynomial ... Done.
+  [648/800] Running model: gam ... Done.
+
+Processing file 82/100: LZGJL4Z45PX028248.csv
+  [649/800] Running model: linear ... Done.
+  [650/800] Running model: ridge ... Done.
+  [651/800] Running model: lasso ... Done.
+  [652/800] Running model: rf ... Done.
+  [653/800] Running model: xgboost ... Done.
+  [654/800] Running model: lightgbm ... Done.
+  [655/800] Running model: polynomial ... Done.
+  [656/800] Running model: gam ... Done.
+
+Processing file 83/100: LZGJL4Z46PX053305.csv
+  [657/800] Running model: linear ... Done.
+  [658/800] Running model: ridge ... Done.
+  [659/800] Running model: lasso ... Done.
+  [660/800] Running model: rf ... Done.
+  [661/800] Running model: xgboost ... Done.
+  [662/800] Running model: lightgbm ... Done.
+  [663/800] Running model: polynomial ... Done.
+  [664/800] Running model: gam ... Done.
+
+Processing file 84/100: LZGJLG840PX022215.csv
+  [665/800] Running model: linear ... Done.
+  [666/800] Running model: ridge ... Done.
+  [667/800] Running model: lasso ... Done.
+  [668/800] Running model: rf ... Done.
+  [669/800] Running model: xgboost ... Done.
+  [670/800] Running model: lightgbm ... Done.
+  [671/800] Running model: polynomial ... Done.
+  [672/800] Running model: gam ... Done.
+
+Processing file 85/100: LZGJLG841PX050606.csv
+  [673/800] Running model: linear ... Done.
+  [674/800] Running model: ridge ... Done.
+  [675/800] Running model: lasso ... Done.
+  [676/800] Running model: rf ... Done.
+  [677/800] Running model: xgboost ... Done.
+  [678/800] Running model: lightgbm ... Done.
+  [679/800] Running model: polynomial ... Done.
+  [680/800] Running model: gam ... Done.
+
+Processing file 86/100: LZGJLG843PX029028.csv
+  [681/800] Running model: linear ... Done.
+  [682/800] Running model: ridge ... Done.
+  [683/800] Running model: lasso ... Done.
+  [684/800] Running model: rf ... Done.
+  [685/800] Running model: xgboost ... Done.
+  [686/800] Running model: lightgbm ... Done.
+  [687/800] Running model: polynomial ... Done.
+  [688/800] Running model: gam ... Done.
+
+Processing file 87/100: LZGJLG844PX010567.csv
+  [689/800] Running model: linear ... Done.
+  [690/800] Running model: ridge ... Done.
+  [691/800] Running model: lasso ... Done.
+  [692/800] Running model: rf ... Done.
+  [693/800] Running model: xgboost ... Done.
+  [694/800] Running model: lightgbm ... Done.
+  [695/800] Running model: polynomial ... Done.
+  [696/800] Running model: gam ... Done.
+
+Processing file 88/100: LZGJLG845PX022212.csv
+  [697/800] Running model: linear ... Done.
+  [698/800] Running model: ridge ... Done.
+  [699/800] Running model: lasso ... Done.
+  [700/800] Running model: rf ... Done.
+  [701/800] Running model: xgboost ... Done.
+  [702/800] Running model: lightgbm ... Done.
+  [703/800] Running model: polynomial ... Done.
+  [704/800] Running model: gam ... Done.
+
+Processing file 89/100: LZGJLG845PX023196.csv
+  [705/800] Running model: linear ... Done.
+  [706/800] Running model: ridge ... Done.
+  [707/800] Running model: lasso ... Done.
+  [708/800] Running model: rf ... Done.
+  [709/800] Running model: xgboost ... Done.
+  [710/800] Running model: lightgbm ... Done.
+  [711/800] Running model: polynomial ... Done.
+  [712/800] Running model: gam ... Done.
+
+Processing file 90/100: LZGJLG846PX023207.csv
+  [713/800] Running model: linear ... Done.
+  [714/800] Running model: ridge ... Done.
+  [715/800] Running model: lasso ... Done.
+  [716/800] Running model: rf ... Done.
+  [717/800] Running model: xgboost ... Done.
+  [718/800] Running model: lightgbm ... Done.
+  [719/800] Running model: polynomial ... Done.
+  [720/800] Running model: gam ... Done.
+
+Processing file 91/100: LZGJLG846PX051993.csv
+  [721/800] Running model: linear ... Done.
+  [722/800] Running model: ridge ... Done.
+  [723/800] Running model: lasso ... Done.
+  [724/800] Running model: rf ... Done.
+  [725/800] Running model: xgboost ... Done.
+  [726/800] Running model: lightgbm ... Done.
+  [727/800] Running model: polynomial ... Done.
+  [728/800] Running model: gam ... Done.
+
+Processing file 92/100: LZGJLG847PX040128.csv
+  [729/800] Running model: linear ... Done.
+  [730/800] Running model: ridge ... Done.
+  [731/800] Running model: lasso ... Done.
+  [732/800] Running model: rf ... Done.
+  [733/800] Running model: xgboost ... Done.
+  [734/800] Running model: lightgbm ... Done.
+  [735/800] Running model: polynomial ... Done.
+  [736/800] Running model: gam ... Done.
+
+Processing file 93/100: LZGJLG847PX042171.csv
+  [737/800] Running model: linear ... Done.
+  [738/800] Running model: ridge ... Done.
+  [739/800] Running model: lasso ... Done.
+  [740/800] Running model: rf ... Done.
+  [741/800] Running model: xgboost ... Done.
+  [742/800] Running model: lightgbm ... Done.
+  [743/800] Running model: polynomial ... Done.
+  [744/800] Running model: gam ... Done.
+
+Processing file 94/100: LZGJLG84XPX044030.csv
+  [745/800] Running model: linear ... Done.
+  [746/800] Running model: ridge ... Done.
+  [747/800] Running model: lasso ... Done.
+  [748/800] Running model: rf ... Done.
+  [749/800] Running model: xgboost ... Done.
+  [750/800] Running model: lightgbm ... Done.
+  [751/800] Running model: polynomial ... Done.
+  [752/800] Running model: gam ... Done.
+
+Processing file 95/100: LZGJLGX46PX033060.csv
+  [753/800] Running model: linear ... Done.
+  [754/800] Running model: ridge ... Done.
+  [755/800] Running model: lasso ... Done.
+  [756/800] Running model: rf ... Done.
+  [757/800] Running model: xgboost ... Done.
+  [758/800] Running model: lightgbm ... Done.
+  [759/800] Running model: polynomial ... Done.
+  [760/800] Running model: gam ... Done.
+
+Processing file 96/100: LZGJLGX47PX044178.csv
+  [761/800] Running model: linear ... Done.
+  [762/800] Running model: ridge ... Done.
+  [763/800] Running model: lasso ... Done.
+  [764/800] Running model: rf ... Done.
+  [765/800] Running model: xgboost ... Done.
+  [766/800] Running model: lightgbm ... Done.
+  [767/800] Running model: polynomial ... Done.
+  [768/800] Running model: gam ... Done.
+
+Processing file 97/100: LZGJLGX47PX057321.csv
+  [769/800] Running model: linear ... Done.
+  [770/800] Running model: ridge ... Done.
+  [771/800] Running model: lasso ... Done.
+  [772/800] Running model: rf ... Done.
+  [773/800] Running model: xgboost ... Done.
+  [774/800] Running model: lightgbm ... Done.
+  [775/800] Running model: polynomial ... Done.
+  [776/800] Running model: gam ... Done.
+
+Processing file 98/100: LZGJLGX48PX033688.csv
+  [777/800] Running model: linear ... Done.
+  [778/800] Running model: ridge ... Done.
+  [779/800] Running model: lasso ... Done.
+  [780/800] Running model: rf ... Done.
+  [781/800] Running model: xgboost ... Done.
+  [782/800] Running model: lightgbm ... Done.
+  [783/800] Running model: polynomial ... Done.
+  [784/800] Running model: gam ... Done.
+
+Processing file 99/100: LZGJLGX49PX033036.csv
+  [785/800] Running model: linear ... Done.
+  [786/800] Running model: ridge ... Done.
+  [787/800] Running model: lasso ... Done.
+  [788/800] Running model: rf ... Done.
+  [789/800] Running model: xgboost ... Done.
+  [790/800] Running model: lightgbm ... Done.
+  [791/800] Running model: polynomial ... Done.
+  [792/800] Running model: gam ... Done.
+
+Processing file 100/100: LZGJLGX49PX038317.csv
+  [793/800] Running model: linear ... Done.
+  [794/800] Running model: ridge ... Done.
+  [795/800] Running model: lasso ... Done.
+  [796/800] Running model: rf ... Done.
+  [797/800] Running model: xgboost ... Done.
+  [798/800] Running model: lightgbm ... Done.
+  [799/800] Running model: polynomial ... Done.
+  [800/800] Running model: gam ... Done.
+--------------------------------------------------
+All tasks completed in 2673.38 seconds.
+Total aggregated experiments to run: 64
+Category: diesel, Weight: below8500kg, PINs count: 15
+  [1/64] Running model: linear for diesel_below8500kg ... Done.
+  [2/64] Running model: ridge for diesel_below8500kg ... Done.
+  [3/64] Running model: lasso for diesel_below8500kg ... Done.
+  [4/64] Running model: rf for diesel_below8500kg ... Done.
+  [5/64] Running model: xgboost for diesel_below8500kg ... Done.
+  [6/64] Running model: lightgbm for diesel_below8500kg ... Done.
+  [7/64] Running model: polynomial for diesel_below8500kg ... Done.
+  [8/64] Running model: gam for diesel_below8500kg ... Done.
+Category: diesel, Weight: 8500_12000kg, PINs count: 19
+  [9/64] Running model: linear for diesel_8500_12000kg ... Done.
+  [10/64] Running model: ridge for diesel_8500_12000kg ... Done.
+  [11/64] Running model: lasso for diesel_8500_12000kg ... Done.
+  [12/64] Running model: rf for diesel_8500_12000kg ... Done.
+  [13/64] Running model: xgboost for diesel_8500_12000kg ... Done.
+  [14/64] Running model: lightgbm for diesel_8500_12000kg ... Done.
+  [15/64] Running model: polynomial for diesel_8500_12000kg ... Done.
+  [16/64] Running model: gam for diesel_8500_12000kg ... Done.
+Category: diesel, Weight: 12000_15000kg, PINs count: 9
+  [17/64] Running model: linear for diesel_12000_15000kg ... Done.
+  [18/64] Running model: ridge for diesel_12000_15000kg ... Done.
+  [19/64] Running model: lasso for diesel_12000_15000kg ... Done.
+  [20/64] Running model: rf for diesel_12000_15000kg ... Done.
+  [21/64] Running model: xgboost for diesel_12000_15000kg ... Done.
+  [22/64] Running model: lightgbm for diesel_12000_15000kg ... Done.
+  [23/64] Running model: polynomial for diesel_12000_15000kg ... Done.
+  [24/64] Running model: gam for diesel_12000_15000kg ... Done.
+Category: diesel, Weight: 15000_18000kg, PINs count: 15
+  [25/64] Running model: linear for diesel_15000_18000kg ... Done.
+  [26/64] Running model: ridge for diesel_15000_18000kg ... Done.
+  [27/64] Running model: lasso for diesel_15000_18000kg ... Done.
+  [28/64] Running model: rf for diesel_15000_18000kg ... Done.
+  [29/64] Running model: xgboost for diesel_15000_18000kg ... Done.
+  [30/64] Running model: lightgbm for diesel_15000_18000kg ... Done.
+  [31/64] Running model: polynomial for diesel_15000_18000kg ... Done.
+  [32/64] Running model: gam for diesel_15000_18000kg ... Done.
+Category: diesel, Weight: above18000kg, PINs count: 1
+  [33/64] Running model: linear for diesel_above18000kg ... Done.
+  [34/64] Running model: ridge for diesel_above18000kg ... Done.
+  [35/64] Running model: lasso for diesel_above18000kg ... Done.
+  [36/64] Running model: rf for diesel_above18000kg ... Done.
+  [37/64] Running model: xgboost for diesel_above18000kg ... Done.
+  [38/64] Running model: lightgbm for diesel_above18000kg ... Done.
+  [39/64] Running model: polynomial for diesel_above18000kg ... Done.
+  [40/64] Running model: gam for diesel_above18000kg ... Done.
+Category: CNG, Weight: below12000kg, PINs count: 14
+  [41/64] Running model: linear for CNG_below12000kg ... Done.
+  [42/64] Running model: ridge for CNG_below12000kg ... Done.
+  [43/64] Running model: lasso for CNG_below12000kg ... Done.
+  [44/64] Running model: rf for CNG_below12000kg ... Done.
+  [45/64] Running model: xgboost for CNG_below12000kg ... Done.
+  [46/64] Running model: lightgbm for CNG_below12000kg ... Done.
+  [47/64] Running model: polynomial for CNG_below12000kg ... Done.
+  [48/64] Running model: gam for CNG_below12000kg ... Done.
+Category: CNG, Weight: above12000kg, PINs count: 13
+  [49/64] Running model: linear for CNG_above12000kg ... Done.
+  [50/64] Running model: ridge for CNG_above12000kg ... Done.
+  [51/64] Running model: lasso for CNG_above12000kg ... Done.
+  [52/64] Running model: rf for CNG_above12000kg ... Done.
+  [53/64] Running model: xgboost for CNG_above12000kg ... Done.
+  [54/64] Running model: lightgbm for CNG_above12000kg ... Done.
+  [55/64] Running model: polynomial for CNG_above12000kg ... Done.
+  [56/64] Running model: gam for CNG_above12000kg ... Done.
+Category: LNG, Weight: 8800_9800kg, PINs count: 14
+  [57/64] Running model: linear for LNG_8800_9800kg ... Done.
+  [58/64] Running model: ridge for LNG_8800_9800kg ... Done.
+  [59/64] Running model: lasso for LNG_8800_9800kg ... Done.
+  [60/64] Running model: rf for LNG_8800_9800kg ... Done.
+  [61/64] Running model: xgboost for LNG_8800_9800kg ... Done.
+  [62/64] Running model: lightgbm for LNG_8800_9800kg ... Done.
+  [63/64] Running model: polynomial for LNG_8800_9800kg ... Done.
+  [64/64] Running model: gam for LNG_8800_9800kg ... Done.

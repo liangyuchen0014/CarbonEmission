@@ -1,0 +1,1 @@
+merged_df["power"] = merged_df["Rev"] * merged_df["Torque"] / 9549.3
