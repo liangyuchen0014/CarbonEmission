@@ -17,6 +17,7 @@ def separate_vehicle_prediction():
         "lightgbm",
         "polynomial",
         "gam",
+        "woa_gam",
     ]
 
     # Check if data directory exists
@@ -103,6 +104,7 @@ def category_weight_aggregated_prediction():
         "lightgbm",
         "polynomial",
         "gam",
+        "woa_gam",
     ]
 
     if not os.path.exists("data/category.json"):
