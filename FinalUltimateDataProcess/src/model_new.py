@@ -324,20 +324,28 @@ class Predictor:
                 "evaluations": 0,
             }
 
-        X_train_inner, X_val_inner, y_train_inner, y_val_inner = train_test_split(
-            X_trans,
-            y_arr,
-            test_size=self.woa_val_size,
-            random_state=self.random_seed,
-        )
-
         if sample_weight is not None:
-            w_train_inner, w_val_inner = train_test_split(
+            (
+                X_train_inner,
+                X_val_inner,
+                y_train_inner,
+                y_val_inner,
+                w_train_inner,
+                w_val_inner,
+            ) = train_test_split(
+                X_trans,
+                y_arr,
                 np.asarray(sample_weight),
                 test_size=self.woa_val_size,
                 random_state=self.random_seed,
             )
         else:
+            X_train_inner, X_val_inner, y_train_inner, y_val_inner = train_test_split(
+                X_trans,
+                y_arr,
+                test_size=self.woa_val_size,
+                random_state=self.random_seed,
+            )
             w_train_inner = None
             w_val_inner = None
 
@@ -619,7 +627,7 @@ class Predictor:
             # 获取 One-Hot 后的特征名
             try:
                 names = list(pre.get_feature_names_out())
-            except:
+            except AttributeError:
                 names = [f"feat_{i}" for i in range(len(reg.coef_))]
 
             coefs = reg.coef_

@@ -191,7 +191,7 @@ def main():
         "full_model_metrics": metrics_full,
         "full_model_coefficients": None,
         "relative_importance": None,
-        "hyperparameters": predictor.get_hyperparameters(),
+        "hyperparameters": predictor.get_hyperparameters() or {},
     }
 
     if args.model == "woa_gam":
