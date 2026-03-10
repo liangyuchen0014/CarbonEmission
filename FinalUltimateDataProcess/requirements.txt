@@ -5,3 +5,4 @@ joblib
 matplotlib
 xgboost
 lightgbm
+pygam

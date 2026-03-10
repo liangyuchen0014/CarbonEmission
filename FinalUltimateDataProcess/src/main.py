@@ -4,6 +4,8 @@ import numpy as np
 import sys
 import os
 import json
+from time import perf_counter
+from typing import Any, cast
 
 # Add project root to sys.path to allow running this script directly
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -42,6 +44,7 @@ def main():
                 "lightgbm",
                 "polynomial",
                 "gam",
+                "woa_gam",
             )
         ),
         help="model type",
@@ -71,6 +74,13 @@ def main():
     )
     parser.add_argument("--test_size", type=float, default=0.2)
     parser.add_argument("--random_seed", type=int, default=42)
+    parser.add_argument("--woa_population", type=int, default=12)
+    parser.add_argument("--woa_iterations", type=int, default=20)
+    parser.add_argument("--woa_val_size", type=float, default=0.2)
+    parser.add_argument("--woa_lam_min", type=float, default=1e-3)
+    parser.add_argument("--woa_lam_max", type=float, default=1e3)
+    parser.add_argument("--woa_n_splines_min", type=int, default=5)
+    parser.add_argument("--woa_n_splines_max", type=int, default=50)
     parser.add_argument(
         "--show_plot", action="store_true", help="whether to show 3D plot"
     )
@@ -134,9 +144,40 @@ def main():
     logger.info("--- Training Full Model (Speed + Power) ---")
     logger.info(f"--- Training Full Model ({args.model}) ---")
 
-    predictor = Predictor(model_type=args.model)
+    predictor = Predictor(
+        model_type=args.model,
+        random_seed=args.random_seed,
+        woa_population=args.woa_population,
+        woa_iterations=args.woa_iterations,
+        woa_val_size=args.woa_val_size,
+        woa_lam_min=args.woa_lam_min,
+        woa_lam_max=args.woa_lam_max,
+        woa_n_splines_min=args.woa_n_splines_min,
+        woa_n_splines_max=args.woa_n_splines_max,
+    )
+    train_start_time = perf_counter()
     predictor.fit(X_train, y_train, sample_weight=w_train)
+    train_time_seconds = perf_counter() - train_start_time
+
+    predict_start_time = perf_counter()
     metrics_full = predictor.evaluate(X_test, y_test)
+    predict_time_seconds = perf_counter() - predict_start_time
+    total_time_seconds = train_time_seconds + predict_time_seconds
+
+    metrics_full.update(
+        {
+            "train_time_seconds": float(train_time_seconds),
+            "predict_time_seconds": float(predict_time_seconds),
+            "train_predict_total_time_seconds": float(total_time_seconds),
+        }
+    )
+
+    logger.info(
+        "Timing - train: %.4fs, predict: %.4fs, total: %.4fs",
+        train_time_seconds,
+        predict_time_seconds,
+        total_time_seconds,
+    )
 
     feature_names = ["speed_mean", "power_mean", "road_type"]
     coefs_dict, intercept = predictor.get_coefficients(feature_names=feature_names)
@@ -150,12 +191,11 @@ def main():
         "full_model_metrics": metrics_full,
         "full_model_coefficients": None,
         "relative_importance": None,
-        "hyperparameters": (
-            predictor.model.get_params()
-            if hasattr(predictor.model, "get_params")
-            else {}
-        ),
+        "hyperparameters": predictor.get_hyperparameters() or {},
     }
+
+    if args.model == "woa_gam":
+        result_data["woa_optimization"] = predictor.get_woa_details()
 
     # Clean hyperparameters for JSON serialization
     # Some sklearn objects (like steps in Pipeline) are not serializable
@@ -177,7 +217,9 @@ def main():
             logger.info(f"Intercept: {intercept:.4f}")
 
         # Convert numpy types to float for JSON serialization
-        serializable_coefs = {k: float(v) for k, v in coefs_dict.items()}
+        serializable_coefs: dict[str, float] = {
+            str(k): float(v) for k, v in coefs_dict.items()
+        }
         if intercept is not None:
             serializable_coefs["intercept"] = float(intercept)
 
@@ -189,9 +231,10 @@ def main():
         # 1. 获取预处理后的特征矩阵 (Transformed X) 以计算标准差
         try:
             # 检查是否为 Pipeline 模型 (GAM 不包含 named_steps)
-            if hasattr(predictor.model, "named_steps"):
+            model_obj = cast(Any, predictor.model)
+            if model_obj is not None and hasattr(model_obj, "named_steps"):
                 # 从 Pipeline 中提取预处理步骤
-                preprocessor = predictor.model.named_steps["preprocessor"]
+                preprocessor = model_obj.named_steps["preprocessor"]
                 # 将 X_train 转换为模型实际看到的数值矩阵
                 X_trans = preprocessor.transform(X_train)
 
@@ -214,7 +257,7 @@ def main():
                 # 匹配系数
                 # 线性模型有 coef_, 树模型有 feature_importances_
                 raw_importances = {}
-                regressor = predictor.model.named_steps["regressor"]
+                regressor = model_obj.named_steps["regressor"]
 
                 if hasattr(regressor, "coef_"):
                     coefs = regressor.coef_

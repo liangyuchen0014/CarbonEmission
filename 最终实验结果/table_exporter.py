@@ -8,6 +8,7 @@ data_dir = "outputs_带权重，sqrt权重均值化，X添加道路类型/result
 
 canonical_models = [
     "GAM",
+    "WOA-GAM",
     "polynomial",
     "linear",
     "ridge",
@@ -19,6 +20,8 @@ canonical_models = [
 
 alias_to_canonical = {
     "gam": "GAM",
+    "woa_gam": "WOA-GAM",
+    "woagam": "WOA-GAM",
     "polynomial": "polynomial",
     "poly": "polynomial",
     "linear": "linear",
